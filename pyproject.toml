@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pocket-manager"
+version = "0.1.0"
+description = ""
+authors = ["Alex <aleosd@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pocketmanager"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.3"
+aiohttp = "^3.8.4"
+async-timeout = "^4.0.2"
+confj = "^0.2.4"
+peewee = "^3.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pm = "pocketmanager.cli:cmd"
