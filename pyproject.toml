@@ -9,7 +9,7 @@ packages = [{include = "pocketmanager"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 click = "^8.1.3"
-aiohttp = "^3.8.5"
+aiohttp = "^3.9.0"
 async-timeout = "^4.0.2"
 confj = "^0.2.4"
 peewee = "^3.16.2"
